@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.landing{
+    width: 100%;
+    height: 100vh;
+   background: black;
+   position: relative;
+   font-family: 'Poppins', sans-serif;
+}
+.landing img{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.35;
+}
+
+.navbar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 40px 120px;
+
+}
+.logo{
+
+    text-decoration: none;
+    color: white; 
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 800;
+
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+
+}
+.navbar ul li a{
+   text-decoration: none;
+   color: white;
+
+}
+.content{
+    position:absolute;
+    text-align: center;
+    max-width: 70%;
+    top: 40%;
+    color: white;
+    padding-left: 450px;
+}
+.content h2{
+    font-size: 50px;
+
+}
+.content p{
+    font-size: 20px;
+}
+.aboutus{
+    display: flex;
+    flex-direction: row;
+
+}
+.content-about,.aboutus img{
+    width: 50%;
+}
+.content-about{
+   background-color: rgb(7, 7, 7);
+   color:white;
+   text-align: center;
+   padding: 100px 60px;
+}
+
+.content-aboutu h2{
+   font-size: 30px;
+   margin: 10px 0;
+}
+.content-about p{
+   font-size: 16px;
+}
+
+.aboutus2{
+    display: flex;
+    flex-direction: row;
+
+}
+.content-about2,.aboutus2 img{
+    width: 50%;
+}
+.content-about2{
+   background-color: rgb(0, 0, 0);
+   color:white;
+   text-align: center;
+   padding: 100px 60px;
+   
+
+}
+
+.content-aboutu2 h2{
+   font-size: 30px;
+   margin: 10px 0;
+}
+.content-about2 p{
+   font-size: 16px;
+}
+
+.aboutus3{
+    display: flex;
+    flex-direction: row;
+
+}
+.content-about3,.aboutus3 img{
+    width: 50%;
+}
+.content-about3{
+   background-color: rgb(3, 3, 3);
+   color:white;
+   text-align: center;
+   padding: 100px 60px;
+}
+
+.content-aboutu3 h2{
+   font-size: 30px;
+   margin: 10px 0;
+}
+.content-about3 p{
+   font-size: 16px;
+}
