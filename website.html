@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-eqiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-sccale=1.0">
+        <title>Website</title>
+        <link rel="stylesheet" href="styles3.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+
+        <div class="landing">  
+            <img src="https://www.usda.gov/sites/default/files/covid-header-2.png">
+            <div class="navbar">
+                <!-- <a href="#"class="logo">Website</a> -->
+                <ul>
+                    <!-- <li><a href="">About Us</a></li> -->
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Bed Availability</a></li>
+                    <li><a href="">Plasma Availability</a></li>
+                    <li><a href="">Oxygen Availability</a></li>
+                    <li><a href="">Form</a></li>
+                    <li><a href="">Precautions</a></li>
+                    <li><a href="">Contact Us</a></li>
+                                       
+                    
+                </ul>
+            </div>
+            
+            
+            <div class="content">
+                <h2>Welcome to our website</h2>
+                <p>DON'T WORRY, WE ARE HERE TO HELP YOU</p>
+                <p>WITH YOU, FOR YOU</p>
+            </div>
+        </div>
+
+        <section class="aboutus">
+            <div class="content-about">
+
+                <h2>BED AVAILABILITY </h2>
+                              
+                <p>SELECT REGION</p>
+                <br><br>
+
+
+                <head>
+                    <title></title>
+                    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                    <script type="text/javascript">
+                    var citiesByState = {
+                    Odisha: ["Bhubaneswar","Puri","Cuttack","Sambalpur","Jharsuguda","Rayagada","Koraput"],
+                    Maharashtra: ["Mumbai","Pune","Nagpur","Thane","Nashik","Aurangabad","Solapur","Latur","Amravati","Kolhapur","Akola"],
+                    Kerala: ["Kochi","Thiruvananthapuram","Kollam","Thrissur","Thrippunithura","Parappanangadi"],
+                    Punjab: ["Amritsar","Ludhiana","Jalandhar","Hoshiarpur","Pathankot","Firozpur"],
+                    Rajasthan:["Jaipur","Kota","Bikaner","Ajmer","Sikar","Sri Ganganagar"],
+                    Gujarat: ["Ahmedabad","Surat","Vadodara","Rajkot","Gandhinagar","Nadiad","Surendranagar","Dahod"],
+                    Goa: ["Bicholim","Canacona","Panji","Sanguem","Sanquelim"],
+                    Karnataka: ["Bangalore","Mysore","Mangalore","Davanagere","Bijapur","Hospet","Chitradurga"],
+                    AndhraPradesh: ["Visakhapatnam","Vijayawada","Kurnool","Rajamahendravaram","Tirupati","Anantapuram"],
+                    Chattisgarh: ["Raipur","Korba","Bilaspur","Mahasamund","Chirmiri","Ambikapur","Raigarh"],
+                    Bihar: ["Patna","Bhagalpur","Muzaffarpur","Darbhanga","Begusarai","Danapur","Kishanganj"],
+                    WestBengal: ["Kolkata","Asansol","Siliguri","Bardhaman","Baharampur","Kharagpur","Krishnanagar","Balurghat"],
+                    Haryana: ["Faridabad","Gurugram","Yamunanagar","Hisar","Bhiwani","Bahadurgarh","Mahendergarh","Kosli"]
+                    }
+                    function makeSubmenu(value) {
+                    if(value.length==0) document.getElementById("citySelect").innerHTML = "<option></option>";
+                    else {
+                    var citiesOptions = "";
+                    for(cityId in citiesByState[value]) {
+                    citiesOptions+="<option>"+citiesByState[value][cityId]+"</option>";
+                    }
+                    document.getElementById("citySelect").innerHTML = citiesOptions;
+                    }
+                    }
+                    function displaySelected() { var country = document.getElementById("countrySelect").value;
+                    var city = document.getElementById("citySelect").value;
+                    alert(country+"\n"+city);
+                    }
+                    function resetSelection() {
+                    document.getElementById("countrySelect").selectedIndex = 0;
+                    document.getElementById("citySelect").selectedIndex = 0;
+                    }
+                    </script>
+                    </head>
+                    <body onload="resetSelection()">
+                    <select id="countrySelect" size="1" onchange="makeSubmenu(this.value)">
+                    <option value="" disabled selected>Choose State</option>
+                    <option>Odisha</option>
+                    <option>Maharashtra</option>
+                    <option>Kerala</option>
+                    <option>Punjab</option>
+                    <option>Rajasthan</option>
+                    <option>Gujarat</option>
+                    <option>Goa</option>
+                    <option>Karnataka</option>
+                    <option>AndhraPradesh</option>
+                    <option>Chattisgarh</option>
+                    <option>Bihar</option>
+                    <option>West Bengal</option>
+                    <option>Haryana</option>
+                    </select>
+                    <select id="citySelect" size="1" >
+                    <option value="" disabled selected>Choose City</option>
+                    <option></option>
+                    </select>
+                    <button onclick="displaySelected()">show selected</button>
+                    </body>
+
+               
+                 
+                  
+            </div>
+            <img src="https://images.livemint.com/img/2020/07/15/1600x900/PTI06-07-2020_000188A_1594044812966_1594824302439.jpg">
+        </section>
+
+        <section class="aboutus2">
+            <img src="https://d2cbg94ubxgsnp.cloudfront.net/Pictures/480xAny/3/6/3/507363_shutterstock_414209803_702544_crop.jpg">
+
+
+            <div class="content-about2">
+                <h2>PLASMA AVAILABILITY </h2>
+                              
+                <p>SELECT REGION</p>
+                <br><br>
+
+                <head>
+                    <title></title>
+                    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                    <script type="text/javascript">
+                    var citiesByState = {
+                    Odisha: ["Bhubaneswar","Puri","Cuttack","Sambalpur","Jharsuguda","Rayagada","Koraput"],
+                    Maharashtra: ["Mumbai","Pune","Nagpur","Thane","Nashik","Aurangabad","Solapur","Latur","Amravati","Kolhapur","Akola"],
+                    Kerala: ["Kochi","Thiruvananthapuram","Kollam","Thrissur","Thrippunithura","Parappanangadi"],
+                    Punjab: ["Amritsar","Ludhiana","Jalandhar","Hoshiarpur","Pathankot","Firozpur"],
+                    Rajasthan:["Jaipur","Kota","Bikaner","Ajmer","Sikar","Sri Ganganagar"],
+                    Gujarat: ["Ahmedabad","Surat","Vadodara","Rajkot","Gandhinagar","Nadiad","Surendranagar","Dahod"],
+                    Goa: ["Bicholim","Canacona","Panji","Sanguem","Sanquelim"],
+                    Karnataka: ["Bangalore","Mysore","Mangalore","Davanagere","Bijapur","Hospet","Chitradurga"],
+                    AndhraPradesh: ["Visakhapatnam","Vijayawada","Kurnool","Rajamahendravaram","Tirupati","Anantapuram"],
+                    Chattisgarh: ["Raipur","Korba","Bilaspur","Mahasamund","Chirmiri","Ambikapur","Raigarh"],
+                    Bihar: ["Patna","Bhagalpur","Muzaffarpur","Darbhanga","Begusarai","Danapur","Kishanganj"],
+                    WestBengal: ["Kolkata","Asansol","Siliguri","Bardhaman","Baharampur","Kharagpur","Krishnanagar","Balurghat"],
+                    Haryana: ["Faridabad","Gurugram","Yamunanagar","Hisar","Bhiwani","Bahadurgarh","Mahendergarh","Kosli"]
+                    }
+                    function makeSubmenu(value) {
+                    if(value.length==0) document.getElementById("citySelect").innerHTML = "<option></option>";
+                    else {
+                    var citiesOptions = "";
+                    for(cityId in citiesByState[value]) {
+                    citiesOptions+="<option>"+citiesByState[value][cityId]+"</option>";
+                    }
+                    document.getElementById("citySelect").innerHTML = citiesOptions;
+                    }
+                    }
+                    function displaySelected() { var country = document.getElementById("countrySelect").value;
+                    var city = document.getElementById("citySelect").value;
+                    alert(country+"\n"+city);
+                    }
+                    function resetSelection() {
+                    document.getElementById("countrySelect").selectedIndex = 0;
+                    document.getElementById("citySelect").selectedIndex = 0;
+                    }
+                    </script>
+                    </head>
+                    <body onload="resetSelection()">
+                    <select id="countrySelect" size="1" onchange="makeSubmenu(this.value)">
+                    <option value="" disabled selected>Choose State</option>
+                    <option>Odisha</option>
+                    <option>Maharashtra</option>
+                    <option>Kerala</option>
+                    <option>Punjab</option>
+                    <option>Rajasthan</option>
+                    <option>Gujarat</option>
+                    <option>Goa</option>
+                    <option>Karnataka</option>
+                    <option>AndhraPradesh</option>
+                    <option>Chattisgarh</option>
+                    <option>Bihar</option>
+                    <option>West Bengal</option>
+                    <option>Haryana</option>
+                    </select>
+                    <select id="citySelect" size="1" >
+                    <option value="" disabled selected>Choose City</option>
+                    <option></option>
+                    </select>
+                    <button onclick="displaySelected()">show selected</button>
+                    </body>
+                                    
+                  
+            </div>
+        </section>
+       
+
+        <section class="aboutus3">
+            <div class="content-about3">
+                <h2>OXYGEN AVAILABILITY </h2>
+                              
+                <p>SELECT REGION</p>
+                <br><br>
+
+                <head>
+                    <title></title>
+                    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                    <script type="text/javascript">
+                    var citiesByState = {
+                    Odisha: ["Bhubaneswar","Puri","Cuttack","Sambalpur","Jharsuguda","Rayagada","Koraput"],
+                    Maharashtra: ["Mumbai","Pune","Nagpur","Thane","Nashik","Aurangabad","Solapur","Latur","Amravati","Kolhapur","Akola"],
+                    Kerala: ["Kochi","Thiruvananthapuram","Kollam","Thrissur","Thrippunithura","Parappanangadi"],
+                    Punjab: ["Amritsar","Ludhiana","Jalandhar","Hoshiarpur","Pathankot","Firozpur"],
+                    Rajasthan:["Jaipur","Kota","Bikaner","Ajmer","Sikar","Sri Ganganagar"],
+                    Gujarat: ["Ahmedabad","Surat","Vadodara","Rajkot","Gandhinagar","Nadiad","Surendranagar","Dahod"],
+                    Goa: ["Bicholim","Canacona","Panji","Sanguem","Sanquelim"],
+                    Karnataka: ["Bangalore","Mysore","Mangalore","Davanagere","Bijapur","Hospet","Chitradurga"],
+                    AndhraPradesh: ["Visakhapatnam","Vijayawada","Kurnool","Rajamahendravaram","Tirupati","Anantapuram"],
+                    Chattisgarh: ["Raipur","Korba","Bilaspur","Mahasamund","Chirmiri","Ambikapur","Raigarh"],
+                    Bihar: ["Patna","Bhagalpur","Muzaffarpur","Darbhanga","Begusarai","Danapur","Kishanganj"],
+                    WestBengal: ["Kolkata","Asansol","Siliguri","Bardhaman","Baharampur","Kharagpur","Krishnanagar","Balurghat"],
+                    Haryana: ["Faridabad","Gurugram","Yamunanagar","Hisar","Bhiwani","Bahadurgarh","Mahendergarh","Kosli"]
+                    }
+                    function makeSubmenu(value) {
+                    if(value.length==0) document.getElementById("citySelect").innerHTML = "<option></option>";
+                    else {
+                    var citiesOptions = "";
+                    for(cityId in citiesByState[value]) {
+                    citiesOptions+="<option>"+citiesByState[value][cityId]+"</option>";
+                    }
+                    document.getElementById("citySelect").innerHTML = citiesOptions;
+                    }
+                    }
+                    function displaySelected() { var country = document.getElementById("countrySelect").value;
+                    var city = document.getElementById("citySelect").value;
+                    alert(country+"\n"+city);
+                    }
+                    function resetSelection() {
+                    document.getElementById("countrySelect").selectedIndex = 0;
+                    document.getElementById("citySelect").selectedIndex = 0;
+                    }
+                    </script>
+                    </head>
+                    <body onload="resetSelection()">
+                    <select id="countrySelect" size="1" onchange="makeSubmenu(this.value)">
+                    <option value="" disabled selected>Choose State</option>
+                    <option>Odisha</option>
+                    <option>Maharashtra</option>
+                    <option>Kerala</option>
+                    <option>Punjab</option>
+                    <option>Rajasthan</option>
+                    <option>Gujarat</option>
+                    <option>Goa</option>
+                    <option>Karnataka</option>
+                    <option>AndhraPradesh</option>
+                    <option>Chattisgarh</option>
+                    <option>Bihar</option>
+                    <option>West Bengal</option>
+                    <option>Haryana</option>
+                    </select>
+                    <select id="citySelect" size="1" >
+                    <option value="" disabled selected>Choose City</option>
+                    <option></option>
+                    </select>
+                    <button onclick="displaySelected()">show selected</button>
+                    </body>
+                                    
+                  
+            </div>
+
+            <img src="https://business.medicaldialogues.in/h-upload/2020/04/11/127043-medical-oxygen.jpg">
+        </section>
+
+        <div id="content2">
+            <article id="contentimg">
+                <form action="http://posttestserver.com/post.php" onsubmit="return validate_form(this)" method="post">
+        
+                <fieldset style="border: 1px solid; padding: 10px;">
+                    <legend>Enter your information :</legend>
+                    First name: <input class="glowing-border" type="text" name="firstname" required><br>
+                    Last name: <input class="glowing-border" type="text" name="lastname" required><br>
+                    Blood Group: <input class="glowing-border" type="text" name="bloodgroup" required><br>
+                    Address: <input class="glowing-border" type="text" name="firstname" required><br>
+                    Age: <input class="glowing-border" type="date" name="bday"><br>
+                    <head>
+                <title>Gender:</title>
+             </head>
+             <body>
+                <form>
+                Gender : 
+                   <input type = "checkbox" name = "Male" value = "on"> Male
+                   <input type = "checkbox" name = "Female" value = "on"> Female
+                </form>
+             </body>
+             <body>
+                <form>
+                     Previously recovered from Covid-19? 
+                   <input type = "checkbox" name = "bool_yes" value = "on"> Yes
+                   <input type = "checkbox" name = "bool_no" value = "on"> No
+                   <br>
+                               <input class="glowing-border" type="submit" value="Submit">
+                               <!-- <button onclick="displaySelected()">SUBMIT</button> -->
+                </form>
+             </body>
+                </fieldset>
+                </form>
+            </article>
+        </div>
+
+
+    </body>
+    <html>
